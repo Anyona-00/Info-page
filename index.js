@@ -3,7 +3,7 @@ function Header() {
     return (
         <header>
         <nav className="nav">
-        <img src="./logo.png" alt="logo" width ="40px" height="40px"  className="logo"/>
+        <img src="./logo.png" alt="logo"   className="logo"/>
         <ul className="nav-items">
             <li>Pricing</li>
             <li>About</li>
@@ -31,30 +31,12 @@ function Header() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         function Footer() {
             return (
                 <footer>
-                    <p>&#169; 2023 Anyona develpment. All Right Reserved</p>
+                    <p className="footer">&#169; 2023 Anyona develpment. All Right Reserved</p>
                 </footer>
             )}
-
-
-
-
-
 
 
 function Page() {
