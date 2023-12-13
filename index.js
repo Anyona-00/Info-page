@@ -1,43 +1,11 @@
 
-function Header() {
-    return (
-        <header>
-        <nav className="nav">
-        <img src="./logo.png" alt="logo"   className="logo"/>
-        <ul className="nav-items">
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contacts</li>
-        </ul>
-        </nav>
-    </header>
-    )}
 
+import Header from "./Header"
 
+import MainContent from "./MainContent"
 
-    function MainContent() {
-        return (
-            <div>
-            <h1>Fun Facts About React</h1>
-        <ul>
-            <li>Was released in 2013</li>
-            <li>Was originaly created by Jotrdane Walke</li>
-            <li>Has over 100k stars on Github</li>
-            <li>Is maintained by facebook</li>
-            <li>Powers thuosands of enterprise apps, including mobile apps</li>
-        </ul>
-        </div>
-        )}
-
-
-
-        function Footer() {
-            return (
-                <footer>
-                    <p className="footer">&#169; 2023 Anyona develpment. All Right Reserved</p>
-                </footer>
-            )}
-
+import Footer from "./Footer"
+    
 
 function Page() {
     return (
