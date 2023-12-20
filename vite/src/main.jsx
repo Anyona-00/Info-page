@@ -10,7 +10,7 @@ import Footer from "./Footer"
 
 function Page() {
     return (
-        <div>
+        <div className='page'>
             <Header />
            
             <MainContent />
@@ -20,8 +20,8 @@ function Page() {
     )
 } 
 
-ReactDOM.render(<Page />,document.getElementById("root"))
+/*ReactDOM.render(<Page />,document.getElementById("root"))*/
 
-/*ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <Page />
-)*/
+)

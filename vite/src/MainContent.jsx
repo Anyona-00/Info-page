@@ -1,7 +1,7 @@
 import React from 'react'
 export default function MainContent() {
     return (
-        <div>
+        <div className='content'>
         <h1>Fun Facts About React</h1>
     <ul>
         <li>Was released in 2013</li>

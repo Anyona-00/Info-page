@@ -1,18 +1,23 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
   body{
-    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-family: 'inter', sans-serif;
+    justify-content: center;
     
   }
 .nav{
     display: flex;
+    align-items: center;
     border-bottom: 1px solid black;
    margin-bottom: 4rem;
+   background-color: black;
+   color: rgb(41, 190, 228);
 }
 
 
+
 .logo{
+  margin: 1rem;
     width: 40px;
     height: 40px;
 }
@@ -25,11 +30,35 @@
 
 }
 
+li::marker{
+  color: rgb(75, 197, 235);
+}
+
+
+
+.page{
+  background-color: rgb(68, 68, 68);
+  background-image: url('Group.png');
+  background-repeat: no-repeat;
+ background-position-x: right;
+ background-position-y: 75%;
+  color: white;
+}
+
+
+.content{
+  margin: 2rem;
+  
+  
+}
+
+
 
 .footer{
     margin-top: 3rem;
     font-size: 1rem;
     font-weight: bold;
+    padding: 2rem;
 }
 
 
